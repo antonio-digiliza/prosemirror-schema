@@ -2,27 +2,23 @@
   "name": "@chatwoot/prosemirror-schema",
   "version": "1.2.1",
   "description": "Schema setup for using prosemirror in chatwoot. Based on 👉 https://github.com/ProseMirror/prosemirror-example-setup/",
-  "main": "dist/index.es.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rollup -c",
     "prepare": "husky install"
   },
-  "repository": "git+https://github.com/chatwoot/prosemirror-schema.git",
+  "repository": "git+https://github.com/antonio-digiliza/prosemirror-schema.git",
   "files": [
     "src/*"
   ],
   "author": "Nithin David <nithin@chatwoot.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/chatwoot/prosemirror-schema/issues"
+    "url": "https://github.com/antonio-digiliza/prosemirror-schema/issues"
   },
-  "homepage": "https://github.com/chatwoot/prosemirror-schema#readme",
+  "homepage": "https://github.com/antonio-digiliza/prosemirror-schema#readme",
   "dependencies": {
-    "@breezystack/lamejs": "^1.2.7",
-    "@chatwoot/ninja-keys": "1.2.3",
-    "@chatwoot/prosemirror-schema": "git+https://github.com/antonio-digiliza/prosemirror-schema.git#b14c347d1875f2eda4be8620fd975163f2fe89fc",
-    "@chatwoot/utils": "^0.0.46",
     "markdown-it-sup": "^2.0.0",
     "prosemirror-commands": "^1.6.0",
     "prosemirror-dropcursor": "^1.8.1",
