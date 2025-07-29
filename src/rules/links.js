@@ -114,8 +114,8 @@ export function normalizeUrl(url) {
   return (match && match.url) || '';
 }
 
-export function linksInputRules(schema) {
-  if (!schema.marks.link) {
+export function linksInputRules(schema, enabledLinks = true) {
+  if (!schema.marks.link || !enabledLinks) {
     return;
   }
 
