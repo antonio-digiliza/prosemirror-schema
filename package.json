@@ -19,6 +19,10 @@
   },
   "homepage": "https://github.com/chatwoot/prosemirror-schema#readme",
   "dependencies": {
+    "@breezystack/lamejs": "^1.2.7",
+    "@chatwoot/ninja-keys": "1.2.3",
+    "@chatwoot/prosemirror-schema": "git+https://github.com/antonio-digiliza/prosemirror-schema.git#b14c347d1875f2eda4be8620fd975163f2fe89fc",
+    "@chatwoot/utils": "^0.0.46",
     "markdown-it-sup": "^2.0.0",
     "prosemirror-commands": "^1.6.0",
     "prosemirror-dropcursor": "^1.8.1",
