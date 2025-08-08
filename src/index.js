@@ -26,6 +26,7 @@ export { MessageMarkdownSerializer } from "./schema/markdown/messageSerializer";
 
 export { fullSchema } from "./schema/article";
 export { messageSchema } from "./schema/message";
+export { suggestionsPlugin, triggerCharacters } from "./mentions/plugin";
 
 export const buildEditor = ({
   schema,
